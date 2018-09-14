@@ -20,7 +20,7 @@ class JiyanCode():
         self.bro = webdriver.Chrome()
         self.wait = WebDriverWait(self.bro, 20)
         self.email = '815490913@qq.com'
-        self.password = '13413624162qq'
+        self.password = '123456'
 
     def __del__(self):
         self.bro.close()
